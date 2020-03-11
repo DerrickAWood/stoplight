@@ -1,0 +1,46 @@
+body{
+  background-color: grey;
+}
+
+.head-box{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 300px;
+  width: 200px;
+}
+
+.light-one{
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.light-two{
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.light-three{
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+  box-shadow: 1px -1px 30px 10px green;
+}
+
